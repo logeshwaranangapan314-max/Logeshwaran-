@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logeshwaran - Resume</title>
+  <link rel="stylesheet" href="style.css"> <!-- CSS link -->
+</head>
+<body>
+  <div class="resume">
+    <!-- Left side -->
+    <div class="left">
+      <img src="photo.jpg" alt="Profile Photo" id="profilePhoto">
+      <h2 id="name">Logeshwaran</h2>
+      <p id="course">BCA</p>
+      
+      <div class="contact">
+        <h3>Contact</h3>
+        <p id="email">📧 logeshwaranangapan341@gmail.com</p>
+        <p id="age">🎂 Age: 18</p>
+        <p id="location">📍 Coimbatore, India</p>
+      </div>
+    </div> <!-- End of Left Side -->
+
+    <!-- Right side -->
+    <div class="right">
+      <div class="section">
+        <h2>🎓 Education</h2>
+        <div class="info">
+          <p><strong>Undergraduate:</strong> <span id="education">BCA</span></p>
+          <p><strong>University:</strong> Bharathiar University</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>💼 Skills</h2>
+        <div class="info" id="skills">
+          <p>✔ HTML, CSS, JavaScript (Beginner)</p>
+          <p>✔ Problem Solving & Logical Thinking</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>⭐ Strengths</h2>
+        <div class="info" id="strengths">
+          <p>✔ Hardworking</p>
+          <p>✔ Quick Learner</p>
+          <p>✔ Team Player</p>
+        </div>
+      </div>
+    </div> <!-- End of Right Side -->
+  </div> <!-- End of Resume -->
+
+  <div class="footer">
+    <p>&copy; 2025 Logeshwaran | Resume</p>
+  </div>
+
+  <script src="script.js"></script> <!-- JavaScript link -->
+</body>
+</html>

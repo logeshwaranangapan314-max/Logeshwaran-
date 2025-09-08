@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9fb;
+  color: #333;
+}
+
+/* Resume container */
+.resume {
+  display: flex;
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Left panel */
+.left {
+  background: #2e3b4e;
+  color: #fff;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+#profilePhoto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+}
+
+.left h2 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.left p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.contact h3 {
+  margin-top: 20px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Right panel */
+.right {
+  width: 70%;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #2e3b4e;
+  font-size: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+  background: #2e3b4e;
+  color: #fff;
+  font-size: 14px;
+}
